@@ -1,16 +1,12 @@
-export const App = () => {
+import UseRoutes from './UseRoutes';
+import Menu from './Menu/Menu';
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+        <Menu />
+        <UseRoutes />
     </div>
   );
-};
+}
+export default App;
